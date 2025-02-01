@@ -3,5 +3,5 @@ def grams_to_ounces(grams):
     return ounces
 
 
-grams = 100
+grams = int(input("Enter grams: "))
 print(f"{grams} grams is equal to {grams_to_ounces(grams)} ounces")

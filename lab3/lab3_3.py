@@ -7,7 +7,7 @@ def solve(numheads, numlegs):
     return None, None
 
 
-numheads = 35
-numlegs = 94
+numheads = int(input("Enter number of heads: "))
+numlegs = int(input("Enter number of legs: "))
 chickens, rabbits = solve(numheads, numlegs)
 print(f"Chickens: {chickens}, Rabbits: {rabbits}")
