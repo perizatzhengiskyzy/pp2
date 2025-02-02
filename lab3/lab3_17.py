@@ -17,7 +17,7 @@ movies = [
     {"name": "We Two", "imdb": 7.2, "category": "Romance"}
 ]
 def get_movies_by_category(a):
-    return [movie for movie in movies if movie["category"] == category]
+    return [movie for movie in movies if movie["category"] == a]
 
 a = input("Enter the category: ")
 print(get_movies_by_category(a))
